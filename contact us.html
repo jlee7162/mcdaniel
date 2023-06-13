@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Univerity Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-
+    free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="download.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onlick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+
+
+</section>
+
+<!--- contact us content-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4135877709305!2d-122.58082999999998!3d45.54200500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a14f7ce98e55%3A0xa23e25dc64c67179!2sLeodis%20V.%20McDaniel%20High%20School!5e0!3m2!1sen!2sus!4v1686605956252!5m2!1sen!2sus" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>
+                    <h5>Address: 2735 NE 82nd Ave</h5>
+                    <p>Portland, Oregon 97220</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>
+                    <h5>Phone number: +1 0123456789</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-envelope-o"></i>
+                <span>
+                    <h5>Email: mcdaniel@pps.net</h5>
+                    <p>Email us your questions</p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="contact-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+
+
+<!---Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to McDaniel basketball. <br> We want our players to feel safe and have fun</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+
+    </div>
+</section>
+
+
+
+
+
+<!----JavaScript for Toggle Menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

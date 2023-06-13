@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Univerity Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-
+    free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="download.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onlick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Women Basketball</h1>
+    <p>Welcome to McDaniel Women's Basketball</p>
+    <a href="" class="hero-btn">Follow us to know more</a>
+</div>
+
+</section>
+<!---course----->
+<section class = "course">
+    <h1>Courses We Offer</h1>
+    <p>Work on skills </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Sign up here!</p>
+        </div>
+        <div class="course-col">
+            <h3>Hard</h3>
+            <p>Sign up here!</p>
+        </div>
+        <div class="course-col">
+            <h3>Beginner</h3>
+            <p>Sign up here!</p>
+        </div>
+    </div>
+</section>
+<!---- campus-------->
+<section class = "campus">
+    <h1>Our basketball team</h1>
+    <p>Welcome to mcdaniel HS bball</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="Portland-Public-Schools-McDaniel-High-Rebuild-Exterior-Entry-Opsis-Architecture-1200x800.jpg">
+            <div class="layer">
+                <h3>Building</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="mcdanielGYM.jpg">
+            <div class="layer">
+                <h3>Gym</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-----Factilities--->
+<section class="facilities">
+    <h1>About the Coaches</h1>
+    <p>Meet our leaders</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="gymbball.jpg">
+            <h3>Chelsea Kimura</h3>
+            <p>Bio: Grew up in Oahu, coached for 10 years.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="_DSA9752.jpg">
+            <h3>Andy </h3>
+            <p>Hello I am Andy. I played college ball.</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="KimMulkeyLSULangston.jpg">
+            <h3>Laura </h3>
+            <p>Hello I am Laura. I am a physical therapist.</p>
+
+        </div>
+    </div>
+</section>
+
+
+<!----------- testimonials ----------->
+<section class="testimonials">
+    <h1>What our players says</h1>
+    <p>amazing problem great Coaches</p>
+
+
+</section>
+
+<!---- Call To Action-->
+<section class="contact">
+    <h1>Join our amazing basketball team</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+    
+
+<!---Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to McDaniel basketball. <br> We want our players to feel safe and have fun</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+
+    </div>
+</section>
+
+
+
+
+
+<!----JavaScript for Toggle Menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
